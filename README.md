@@ -56,6 +56,8 @@ pip install pandas joblib flaml prefect
 
 ```
 
+---
+
 # 🚀 Usage
 ## 1. Run the Pipeline Locally
 
@@ -96,6 +98,7 @@ prefect orion start
 ```
 
 ---
+
 # 📊 Example Output
 
 - **Inflow Forecast (inflow_forecast.csv)**
@@ -115,6 +118,7 @@ date,cash_outflow
 ```
 
 ---
+
 # 🛠️ Customization
 
 - Change input file:
@@ -128,6 +132,7 @@ forecast_next(inflow_model, inflow_df, horizon=90)
 ```
 
 ---
+
 # 📌 Requirements
 
 - Python 3.8+

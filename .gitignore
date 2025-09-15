@@ -1,0 +1,9 @@
+# Ignore all
+*
+
+# Do not ignore the file .gitignore itself
+!.gitignore
+
+# Do not ignoere specific files
+!forecast_pipeline.py
+!requirements.txt

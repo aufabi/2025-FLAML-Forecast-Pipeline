@@ -1,0 +1,9 @@
+pandas
+flaml[ts]
+streamlit
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+prophet
+prefect

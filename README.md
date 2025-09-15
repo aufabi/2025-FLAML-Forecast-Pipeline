@@ -20,7 +20,7 @@ The pipeline performs:
 Clone the repository:
 
 ```
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/aufabi/2025-FLAML-Forecast-Pipeline/
 cd <your-repo>
 ```
 
@@ -57,7 +57,7 @@ python cashflow_pipeline.py
 ```
 
 This will:
-- Preprocess the input customer0001_cashflow.csv
+- Preprocess the input, in this case, the 'customer0001_cashflow.csv'
 - Train models for cash_inflow and cash_outflow
 - Save models (inflow_model.pkl, outflow_model.pkl)
 - Save predictions (inflow_forecast.csv, outflow_forecast.csv)
@@ -77,13 +77,13 @@ The code is written using Prefect's @flow and @task decorators. To run:
 python cashflow_pipeline.py
 ```
 
-You’ll see Prefect manage the execution of each step in the flow.
+You’ll see the Prefect manage the execution of each step in the flow.
 
 **Monitor with Prefect Orion UI**
 
 Prefect comes with a built-in UI:
 ```
-prefect orion start
+prefect server start
 ```
 
 ---

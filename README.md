@@ -16,7 +16,7 @@ The pipeline performs:
 ---
 
 ## 📂 Project Structure
-
+.
 ├── cashflow_pipeline.py # Main pipeline code
 ├── customer0001_cashflow.csv # Example input data
 ├── inflow_forecast.csv # Generated forecast (inflow)

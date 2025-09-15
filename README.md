@@ -15,17 +15,6 @@ The pipeline performs:
 
 ---
 
-## 📂 Project Structure
-.
-├── cashflow_pipeline.py # Main pipeline code
-├── customer0001_cashflow.csv # Example input data
-├── inflow_forecast.csv # Generated forecast (inflow)
-├── outflow_forecast.csv # Generated forecast (outflow)
-└── README.md # Project documentation
-
-
----
-
 ## ⚙️ Installation
 
 Clone the repository:

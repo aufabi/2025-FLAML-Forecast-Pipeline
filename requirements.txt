@@ -7,3 +7,4 @@ lightgbm
 statsmodels
 prophet
 prefect
+ray
